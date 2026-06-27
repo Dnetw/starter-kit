@@ -1,0 +1,18 @@
+@import 'tailwindcss';
+@import '../../vendor/livewire/flux/dist/flux.css';
+@import '../../vendor/dnetw/core/resources/css/preset.css';
+
+@source '../views';
+@source '../../vendor/dnetw/core/resources/views';
+@source '../../vendor/dnetw/admin/resources/views';
+@source '../../vendor/dnetw/attachments/resources/views';
+@source '../../vendor/dnetw/calendar/resources/views';
+@source '../../vendor/dnetw/comments/resources/views';
+@source '../../vendor/dnetw/fleet/resources/views';
+@source '../../vendor/dnetw/inbox/resources/views';
+@source '../../vendor/dnetw/notifications/resources/views';
+@source '../../vendor/dnetw/search/resources/views';
+@source '../../vendor/dnetw/tags/resources/views';
+@source '../../vendor/laravel/framework/src/Illuminate/Pagination/resources/views/*.blade.php';
+@source '../../vendor/livewire/flux-pro/stubs/**/*.blade.php';
+@source '../../vendor/livewire/flux/stubs/**/*.blade.php';
