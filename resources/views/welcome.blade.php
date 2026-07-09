@@ -65,22 +65,22 @@
                     <div class="mt-8 flex flex-col gap-3">
                         @auth
                             <flux:button size="sm" :href="route('dashboard')" variant="primary" wire:navigate>
-                                {{ __('Go to dashboard') }}
+                                {{ __('Go to Dashboard') }}
                             </flux:button>
                             <form method="POST" action="{{ route('logout') }}">
                                 @csrf
                                 <flux:button size="sm" type="submit" class="w-full">
-                                    {{ __('Log out') }}
+                                    {{ __('Log Out') }}
                                 </flux:button>
                             </form>
                         @else
                             <flux:button size="sm" :href="route('login')" variant="primary" wire:navigate>
-                                {{ __('Log in') }}
+                                {{ __('Log In') }}
                             </flux:button>
 
                             @if (Route::has('register'))
                                 <flux:button size="sm" :href="route('register')" wire:navigate>
-                                    {{ __('Create account') }}
+                                    {{ __('Create Account') }}
                                 </flux:button>
                             @endif
                         @endauth
@@ -90,7 +90,7 @@
                 @if (Route::has('password.request'))
                     @guest
                         <div class="hidden lg:block text-center text-xs text-zinc-500 lg:text-left dark:text-zinc-400">
-                            <flux:link :href="route('password.request')" class="text-xs">{{ __('Reset your password') }}</flux:link>.
+                            <flux:link :href="route('password.request')" class="text-xs">{{ __('Reset Your Password') }}</flux:link>.
                         </div>
                     @endguest
                 @endif
