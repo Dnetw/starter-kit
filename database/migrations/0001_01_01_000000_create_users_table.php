@@ -11,12 +11,18 @@ return new class extends Migration
      */
     public function up(): void
     {
+        // Stock, framework-default users table plus Fortify's two-factor columns.
+        // Every app-specific per-user attribute lives on dnetw/admin's `profiles`
+        // table — never here. See dnetw/kb policies/users-table-immutable.
         Schema::create('users', function (Blueprint $table) {
             $table->id();
             $table->string('name');
             $table->string('email')->unique();
             $table->timestamp('email_verified_at')->nullable();
             $table->string('password');
+            $table->text('two_factor_secret')->nullable();
+            $table->text('two_factor_recovery_codes')->nullable();
+            $table->timestamp('two_factor_confirmed_at')->nullable();
             $table->rememberToken();
             $table->timestamps();
         });
