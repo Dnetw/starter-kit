@@ -14,8 +14,7 @@
     "license": "MIT",
     "require": {
         "php": "^8.3",
-        "dnetw/admin": "^0.3.25",
-        "dnetw/core": "^0.7.30",
+        "dnetw/core": "^0.8",
         "laravel/fortify": "^1.37.2",
         "laravel/framework": "^13.17",
         "laravel/tinker": "^3.0",
