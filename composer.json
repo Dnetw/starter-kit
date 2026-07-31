@@ -2,7 +2,7 @@
     "$schema": "https://getcomposer.org/schema.json",
     "name": "dnetw/starter-kit",
     "type": "project",
-    "description": "Laravel starter kit for the dnetw ecosystem. Ships the dnetw/core + dnetw/admin baseline (auth, admin surface, sidebar, settings, dashboard). Layer additional dnetw packages (calendar, attachments, comments, tags, …) via `composer require dnetw/<package> && php artisan dnetw:install`.",
+    "description": "Laravel starter kit for the dnetw ecosystem. Ships the dnetw/core + dnetw/admin baseline (auth, admin surface, sidebar, settings, dashboard). Layer additional dnetw packages (calendar, attachments, comments, tags, \u2026) via `composer require dnetw/<package> && php artisan dnetw:install`.",
     "keywords": [
         "laravel",
         "framework",
@@ -13,7 +13,8 @@
     ],
     "license": "MIT",
     "require": {
-        "php": "^8.3",
+        "dnetw/attachments": "dev-main",
+        "dnetw/comments": "dev-main",
         "dnetw/core": "^0.8",
         "laravel/fortify": "^1.37.2",
         "laravel/framework": "^13.17",
@@ -21,7 +22,8 @@
         "livewire/flux": "^2.13.1",
         "livewire/flux-pro": "^2.14",
         "livewire/livewire": "^4.1",
-        "livewire/volt": "^1.7"
+        "livewire/volt": "^1.7",
+        "php": "^8.3"
     },
     "require-dev": {
         "fakerphp/faker": "^1.24",
