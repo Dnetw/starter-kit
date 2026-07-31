@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "d0c8944bf69531ff3dabc6e34ef43fab",
+    "content-hash": "050e96944422aa229ed17fd2ce42efc9",
     "packages": [
         {
             "name": "bacon/bacon-qr-code",
@@ -542,16 +542,10 @@
         {
             "name": "dnetw/attachments",
             "version": "dev-main",
-            "source": {
-                "type": "git",
-                "url": "git@github.com:Dnetw/attachments.git",
-                "reference": "659dcf3f60f164eb75e7104b8e9153b8ec784c5f"
-            },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/Dnetw/attachments/zipball/659dcf3f60f164eb75e7104b8e9153b8ec784c5f",
-                "reference": "659dcf3f60f164eb75e7104b8e9153b8ec784c5f",
-                "shasum": ""
+                "url": "https://dnetw-packages.pages.dev/dist/dnetw/attachments/dnetw-attachments-dev-main-b816f7.zip",
+                "reference": "659dcf3f60f164eb75e7104b8e9153b8ec784c5f"
             },
             "require": {
                 "dnetw/core": "dev-main",
@@ -631,16 +625,10 @@
         {
             "name": "dnetw/comments",
             "version": "dev-main",
-            "source": {
-                "type": "git",
-                "url": "git@github.com:Dnetw/comments.git",
-                "reference": "7026b507a8ede60cd683d815f1a9608556181ced"
-            },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/Dnetw/comments/zipball/7026b507a8ede60cd683d815f1a9608556181ced",
-                "reference": "7026b507a8ede60cd683d815f1a9608556181ced",
-                "shasum": ""
+                "url": "https://dnetw-packages.pages.dev/dist/dnetw/comments/dnetw-comments-dev-main-08b14b.zip",
+                "reference": "7026b507a8ede60cd683d815f1a9608556181ced"
             },
             "require": {
                 "dnetw/core": "dev-main",
@@ -707,16 +695,10 @@
         {
             "name": "dnetw/core",
             "version": "dev-main",
-            "source": {
-                "type": "git",
-                "url": "git@github.com:Dnetw/core.git",
-                "reference": "47712803bf23be52f613060fcccf38212f607711"
-            },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/Dnetw/core/zipball/47712803bf23be52f613060fcccf38212f607711",
-                "reference": "47712803bf23be52f613060fcccf38212f607711",
-                "shasum": ""
+                "url": "https://dnetw-packages.pages.dev/dist/dnetw/core/dnetw-core-dev-main-1ab8d0.zip",
+                "reference": "47712803bf23be52f613060fcccf38212f607711"
             },
             "require": {
                 "dompdf/dompdf": "^3.1",

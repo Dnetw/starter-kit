@@ -96,25 +96,17 @@
     "prefer-stable": true,
     "repositories": [
         {
+            "type": "composer",
+            "url": "https://dnetw-packages.pages.dev",
+            "only": [
+                "dnetw/*",
+                "piscpr/*"
+            ]
+        },
+        {
             "name": "flux-pro",
             "type": "composer",
             "url": "https://composer.fluxui.dev"
-        },
-        {
-            "type": "vcs",
-            "url": "https://github.com/Dnetw/core"
-        },
-        {
-            "type": "vcs",
-            "url": "https://github.com/Dnetw/admin"
-        },
-        {
-            "type": "vcs",
-            "url": "https://github.com/Dnetw/attachments"
-        },
-        {
-            "type": "vcs",
-            "url": "https://github.com/Dnetw/comments"
         }
     ]
 }
