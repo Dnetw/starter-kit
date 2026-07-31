@@ -626,10 +626,6 @@
                 }
             ],
             "description": "Polymorphic file attachments for Laravel — model trait, panel, versioned storage, and generic CRUD pages.",
-            "support": {
-                "source": "https://github.com/Dnetw/attachments/tree/main",
-                "issues": "https://github.com/Dnetw/attachments/issues"
-            },
             "time": "2026-07-31T00:00:56+00:00"
         },
         {
@@ -706,10 +702,6 @@
                 }
             ],
             "description": "Polymorphic, optionally-threaded comments for Laravel — model, trait, and consumer-pluggable permissions.",
-            "support": {
-                "source": "https://github.com/Dnetw/comments/tree/main",
-                "issues": "https://github.com/Dnetw/comments/issues"
-            },
             "time": "2026-07-31T00:00:56+00:00"
         },
         {
@@ -718,12 +710,12 @@
             "source": {
                 "type": "git",
                 "url": "git@github.com:Dnetw/core.git",
-                "reference": "a037e3186cf645e03b9b085aa00033428d79fa4f"
+                "reference": "f2cce94e5b87d4fafe728b98a5b0cdf190717043"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/Dnetw/core/zipball/a037e3186cf645e03b9b085aa00033428d79fa4f",
-                "reference": "a037e3186cf645e03b9b085aa00033428d79fa4f",
+                "url": "https://api.github.com/repos/Dnetw/core/zipball/f2cce94e5b87d4fafe728b98a5b0cdf190717043",
+                "reference": "f2cce94e5b87d4fafe728b98a5b0cdf190717043",
                 "shasum": ""
             },
             "require": {
@@ -807,11 +799,7 @@
                 "livewire",
                 "primitives"
             ],
-            "support": {
-                "source": "https://github.com/Dnetw/core/tree/v0.8.47",
-                "issues": "https://github.com/Dnetw/core/issues"
-            },
-            "time": "2026-07-31T01:18:38+00:00"
+            "time": "2026-07-31T03:02:40+00:00"
         },
         {
             "name": "doctrine/deprecations",
