@@ -710,12 +710,12 @@
             "source": {
                 "type": "git",
                 "url": "git@github.com:Dnetw/core.git",
-                "reference": "893f84fe3c37cc0a925a2ea07e9c609517e84b28"
+                "reference": "47712803bf23be52f613060fcccf38212f607711"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/Dnetw/core/zipball/893f84fe3c37cc0a925a2ea07e9c609517e84b28",
-                "reference": "893f84fe3c37cc0a925a2ea07e9c609517e84b28",
+                "url": "https://api.github.com/repos/Dnetw/core/zipball/47712803bf23be52f613060fcccf38212f607711",
+                "reference": "47712803bf23be52f613060fcccf38212f607711",
                 "shasum": ""
             },
             "require": {
@@ -799,7 +799,7 @@
                 "livewire",
                 "primitives"
             ],
-            "time": "2026-07-31T03:10:52+00:00"
+            "time": "2026-07-31T03:27:49+00:00"
         },
         {
             "name": "doctrine/deprecations",
