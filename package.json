@@ -13,10 +13,10 @@
         "autoprefixer": "^10.4.20",
         "concurrently": "^9.0.1",
         "cropperjs": "^2.1.1",
-        "gridstack": "^12.6.0",
+        "gridstack": "^13.0.2",
         "laravel-vite-plugin": "^3.1",
         "leaflet": "^1.9.4",
-        "maplibre-gl": "^5.24.0",
+        "maplibre-gl": "^6.1.0",
         "pmtiles": "^4.4.1",
         "tailwindcss": "^4.0.7",
         "vite": "^8.0.0"
