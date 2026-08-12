@@ -544,8 +544,8 @@
             "version": "dev-main",
             "dist": {
                 "type": "zip",
-                "url": "https://dnetw-packages.pages.dev/dist/dnetw/attachments/dnetw-attachments-dev-main-7be8a8.zip",
-                "reference": "f3508bb04e6cff10e088ac2be166b73240580e3e"
+                "url": "https://dnetw-packages.pages.dev/dist/dnetw/attachments/dnetw-attachments-dev-main-4204f0.zip",
+                "reference": "878e9d9a6d4be850a12f3dfa3dc427b00d9379bf"
             },
             "require": {
                 "dnetw/core": "dev-main",
@@ -620,7 +620,7 @@
                 }
             ],
             "description": "Polymorphic file attachments for Laravel — model trait, panel, versioned storage, and generic CRUD pages.",
-            "time": "2026-08-06T02:12:11+00:00"
+            "time": "2026-08-11T15:45:51+00:00"
         },
         {
             "name": "dnetw/comments",
@@ -697,8 +697,8 @@
             "version": "dev-main",
             "dist": {
                 "type": "zip",
-                "url": "https://dnetw-packages.pages.dev/dist/dnetw/core/dnetw-core-dev-main-0e58f9.zip",
-                "reference": "b2136ab2b5ca1a4094ab147a587dc0f59bd20f59"
+                "url": "https://dnetw-packages.pages.dev/dist/dnetw/core/dnetw-core-dev-main-97193c.zip",
+                "reference": "d7b9e3e35bcdb783853cb78cd2b4330ffcf423df"
             },
             "require": {
                 "dompdf/dompdf": "^3.1",
@@ -781,7 +781,7 @@
                 "livewire",
                 "primitives"
             ],
-            "time": "2026-07-31T14:00:05+00:00"
+            "time": "2026-08-12T00:24:48+00:00"
         },
         {
             "name": "doctrine/deprecations",
