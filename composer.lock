@@ -697,8 +697,8 @@
             "version": "dev-main",
             "dist": {
                 "type": "zip",
-                "url": "https://dnetw-packages.pages.dev/dist/dnetw/core/dnetw-core-dev-main-b32dc1.zip",
-                "reference": "11120fd2ef7464996532cae1a1b7cb98f84ee500"
+                "url": "https://dnetw-packages.pages.dev/dist/dnetw/core/dnetw-core-dev-main-05fabf.zip",
+                "reference": "b675b0993dbe2d59664b9f3cbf660df5e1c6d53f"
             },
             "require": {
                 "dompdf/dompdf": "^3.1",
@@ -781,7 +781,7 @@
                 "livewire",
                 "primitives"
             ],
-            "time": "2026-08-25T16:24:27+00:00"
+            "time": "2026-08-26T23:59:49+00:00"
         },
         {
             "name": "doctrine/deprecations",
